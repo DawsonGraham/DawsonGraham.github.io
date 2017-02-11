@@ -1,11 +1,14 @@
-
 body {
 	padding: 0.5%;
-	background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black, white);
+	background: white;
+	/* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(black, white);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(black, white);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, white);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, white);
 }
 
 #title {
@@ -15,51 +18,19 @@ body {
 	text-align: center;
 	font-size: 2.5em;
 }
+
 .top-text {
 	color: #DCDCDC;
 	margin: auto;
 }
+
 a:link {
-    color: aqua;
+	color: aqua;
 }
 
 a:visited {
-    color: red;
+	color: red;
 }
-
-
-#ragnar-header {
-	margin-left: 2%;
-}
-
-.background-image-one {
-	background-image: url("background-axes.JPG");
-	background-size: 70px, 20px;
-	background-repeat: no-repeat;
-	display:block;
-}
-
-.background-image-two {
-	background-image: url("background-axes.JPG");
-	background-size: 70px, 20px;
-	background-repeat: no-repeat;
-	display:block;
-}
-
-.son-of-ragnar {
-	margin-left: 5%;
-
-}
-
-.user-thought {
-	margin-left: 5%;
-
-}
-
-#thank-you-text {
-	color: white;
-}
-
 
 img {
 	padding: auto;
@@ -74,45 +45,73 @@ img {
 	text-align: center;
 }
 
+#ragnar-header {
+	margin-left: 2%;
+}
+
+.son-of-ragnar {
+	margin-left: 5%;
+}
+
+.user-thought {
+	margin-left: 5%;
+}
+
+.background-image-one {
+	background-image: url("background-axes.JPG");
+	background-size: 70px, 20px;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+.background-image-two {
+	background-image: url("background-axes.JPG");
+	background-size: 70px, 20px;
+	background-repeat: no-repeat;
+	display: block;
+}
+
+#thank-you-text {
+	color: white;
+}
 
 footer {
 	margin: auto;
 	width: 100px;
 }
 
-
 @media screen and (max-width: 600px) {
-  img {
-   width:95%;
-  }
+	img {
+		width: 95%;
+	}
 }
 
 @media screen and (max-height: 500px) {
-  img {
-   height:95%;
-  }
+	img {
+		height: 95%;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .son-of-ragnar {
-   margin-left:60%;
-  }
+	.son-of-ragnar {
+		margin-left: 60%;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .user-thought {
-   margin-left:60%;
-  }
+	.user-thought {
+		margin-left: 60%;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .background-image-one {
-   background-size: contain;
-  }
+	.background-image-one {
+		background-size: contain;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .background-image-two {
-   background-size: contain;
-  }
+	.background-image-two {
+		background-size: contain;
+	}
 }
