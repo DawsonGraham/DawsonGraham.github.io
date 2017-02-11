@@ -1,5 +1,6 @@
 body {
-	 background: red; /* For browsers that do not support gradients */
+	padding: 0.5%;
+	background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
@@ -13,26 +14,67 @@ body {
 	text-align: center;
 	font-size: 2.5em;
 }
-
-
-footer {
+.top-text {
+	color: #DCDCDC;
 	margin: auto;
-	width: 100px;
+}
+a:link {
+    color: aqua;
 }
 
+a:visited {
+    color: red;
+}
+
+
+#ragnar-header {
+	margin-left: 2%;
+}
+
+.background-image-one {
+	background-image: url("background-axes.JPG");
+	background-size: 70px, 20px;
+	background-repeat: no-repeat;
+	margin-top: 2%;
+	display:block;
+}
+
+.background-image-two {
+	background-image: url("background-axes.JPG");
+	background-size: 70px, 20px;
+	background-repeat: no-repeat;
+	margin-top: 2%;
+	display:block;
+}
+
+.son-of-ragnar {
+	margin-left: 10%;
+}
+
+.user-thought {
+	margin-left: 10%;
+}
+
+#thank-you-text {
+	color: white;
+}
+
+
 img {
+	padding: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border: solid gray 4px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.5), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery {
 	text-align: center;
 }
 
-.top-text {
-	color: #DCDCDC;
+
+footer {
 	margin: auto;
+	width: 100px;
 }
