@@ -1,3 +1,38 @@
 body {
-	background: gray
+	 background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white);
+}
+
+#title {
+	color: black;
+	text-shadow: 1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-family: Papyrus;
+	text-align: center;
+	font-size: 2.5em;
+}
+
+
+footer {
+	margin: auto;
+	width: 100px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid gray 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gallery {
+	text-align: center;
+}
+
+.top-text {
+	color: #DCDCDC;
+	margin: auto;
 }
