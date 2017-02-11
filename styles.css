@@ -1,3 +1,4 @@
+
 body {
 	padding: 0.5%;
 	background: red; /* For browsers that do not support gradients */
@@ -35,7 +36,6 @@ a:visited {
 	background-image: url("background-axes.JPG");
 	background-size: 70px, 20px;
 	background-repeat: no-repeat;
-	margin-top: 2%;
 	display:block;
 }
 
@@ -43,16 +43,17 @@ a:visited {
 	background-image: url("background-axes.JPG");
 	background-size: 70px, 20px;
 	background-repeat: no-repeat;
-	margin-top: 2%;
 	display:block;
 }
 
 .son-of-ragnar {
-	margin-left: 10%;
+	margin-left: 5%;
+
 }
 
 .user-thought {
-	margin-left: 10%;
+	margin-left: 5%;
+
 }
 
 #thank-you-text {
@@ -77,4 +78,41 @@ img {
 footer {
 	margin: auto;
 	width: 100px;
+}
+
+
+@media screen and (max-width: 600px) {
+  img {
+   width:95%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  img {
+   height:95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .son-of-ragnar {
+   margin-left:60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .user-thought {
+   margin-left:60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background-image-one {
+   background-size: contain;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .background-image-two {
+   background-size: contain;
+  }
 }
